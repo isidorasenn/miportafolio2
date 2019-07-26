@@ -25,6 +25,16 @@ height:  737px;
     text-align: center;
 }
 
+
+
+.experiencia{
+    padding-top: 50px;
+} 
 .parrafos{
     font-weight: 300;
+}
+
+.iconos{
+    font-size: 100px;
+    text-align: center;
 }
