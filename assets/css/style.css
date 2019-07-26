@@ -1,0 +1,30 @@
+body{
+    font-family: 'Oswald', sans-serif;
+  
+}
+
+header {
+background-image: url(../img/bg_hero.png);
+background-repeat: no-repeat;
+background-size: cover;
+height:  737px;
+}
+
+
+.titulo{
+    padding-top: 600px;
+    color: #FFFFFF;
+    font-size: 72pt;
+}
+
+.titulo h2{
+    font-weight: 300;
+}
+
+.sobremi h3{
+    text-align: center;
+}
+
+.parrafos{
+    font-weight: 300;
+}
