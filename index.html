@@ -27,15 +27,15 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="">Sobre mi</a>
-            <a class="nav-item nav-link" href="#">Experiencia</a>
-            <a class="nav-item nav-link" href="#">Trabajos</a>
-            <a class="nav-item nav-link" href="#">Contacto</a>
+            <a class="nav-item nav-link" href="#sobremi">Sobre mi</a>
+            <a class="nav-item nav-link" href="#expe">Experiencia</a>
+            <a class="nav-item nav-link" href="#trabajos">Trabajos</a>
+            <a class="nav-item nav-link" href="#contacto">Contacto</a>
           </div>
         </div>
       </nav>
-
-    <header>
+    
+    <header >
         
         <div class="titulo container inline-block">          
             <h2 class="text-center">Yo soy</h2>
@@ -44,7 +44,12 @@
           
     </header>
 
-<div class="sobremi container d-sm-none d-md-block 	d-none d-sm-block">
+    <div class="alert alert-warning text-center" role="alert">
+            Puedes ver mi canal de youtube <a href="#" class="alert-link">aqui!</a>
+          </div>
+
+
+<div id="sobremi" class="sobremi container d-sm-none d-md-block 	d-none d-sm-block">
 
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis <br> ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h3>
 
@@ -69,7 +74,7 @@
 </div>
 
 
-<div class="experiencia  container col-md-12">
+<div id="expe" class="experiencia  container col-md-12">
         <h1 class="text-center">Mi experiencia</h1>  
         
 </div>
@@ -91,7 +96,7 @@
      </div>
 </div>
     
-<section class="container-fluid text-white bg-warning inline-block" id="work"> 
+<section id="trabajos" class="container-fluid text-white bg-warning inline-block" id="work"> 
 <h2 class="text-center  font-weight-bold ">MIS ÚLTIMOS TRABAJOS</h2>
 
 <div class="card-deck">
@@ -149,8 +154,71 @@
  </div>
 </section>
        
+<div class="my-5 d-sm-none d-md-block 	d-none d-sm-block">
 
-<section class="text-center font-weight-bold">
+        <div class="bd-example">
+            <h1 class="text-center">FOTOGRAFÍA</h1>
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="assets/img/carru1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/carru2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/carru3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/carru4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                </div>
+        
+              </div>
+              <div class="carousel-item">
+        
+                <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="assets/img/carru5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/carru6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/carru7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="assets/img/carru8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                </div>
+        
+              </div>
+        
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        </div>
+        
+
+<section id="contacto" class="text-center font-weight-bold">
     <h1 text-center>CONTACTO</h1>   
 </section>
 <div class="typeform-widget" data-url="https://isidorasenn.typeform.com/to/Zr6Adn" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Zr6Adn&utm_source=typeform.com-14392185-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
