@@ -21,8 +21,13 @@ height:  737px;
     font-weight: 300;
 }
 
+.sobremi{
+    padding-top: 30px;
+}
+
 .sobremi h3{
     text-align: center;
+    padding-top: 50px;
 }
 
 
@@ -30,6 +35,10 @@ height:  737px;
 .experiencia{
     padding-top: 50px;
 } 
+
+.experiencia h3{
+    padding-bottom: 20px;
+}
 .parrafos{
     font-weight: 300;
 }
@@ -37,4 +46,18 @@ height:  737px;
 .iconos{
     font-size: 100px;
     text-align: center;
+}
+
+.work h2{
+   margin-top: 20px;
+}
+
+.card-deck{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 18px;
+}
+
+footer iconosf{
+    font-size: 70px;
 }
